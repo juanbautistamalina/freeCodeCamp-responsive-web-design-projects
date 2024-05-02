@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta - Desarrollo Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Encuesta de Desarrollo Personal: Descubre Tu Potencial</h1>
+    
+    <p id="description">“Lo que no se define no se puede medir. Lo que no se mide, no se puede mejorar. Lo que no se mejora, se degrada siempre”. </p>
+
+    <form id="survey-form" action="">
+
+        <fieldset>
+            <label id="name-label" for="name">Nombre </label>
+            <input type="text" name="nombre" id="name" required placeholder="Introduce tu nombre" >
+            
+
+            <label id="email-label" for="email">Email </label>
+            <input type="email" name="email" id="email" required placeholder="Introduce tu email" >
+
+            <label id="number-label" for="number">Edad </label>
+            <input type="number" name="edad" id="number" min="10" max="99" placeholder="Ingresar Edad" value="form-edad">
+        </fieldset>
+
+
+        <fieldset>
+            <label for="">Género</label>
+            <label class="genero-m" for="masculino"><input type="radio" name="genero" id="masculino" class="input-radio" value="genero-masculino">Masculino</label>
+
+            <label class="genero-f" for="femenino"><input type="radio" name="genero" id="femenino" class="input-radio"  value="genero-femenino">Femenino</label>
+        </fieldset>
+
+        <fieldset>
+            <label id="title-dropdown" for="dropdown">¿Cuál de las siguientes áreas te gustaría mejorar en tu vida personal?</label>
+            <select name="" id="dropdown">
+            <option disabled selected >Seleccione una opción</option>
+            <option value="salud-fisica">Salud física</option>
+            <option value="salud-mental">Salud Mental</option>
+            <option value="relaciones-personales">Relaciones personales</option>
+            <option value="gestion-tiempo">Gestión del Tiempo</option>
+        </select>
+        </fieldset>
+        
+
+
+        <fieldset>
+            <label id="titulo-habitos"> Marca los hábitos de desarrollo personal que ya estás practicando actualmente (Elige todas las que apliquen)</label>
+
+            <label class="habitos" for="lectura"><input type="checkbox" name="habitos-lectura" id="lectura" value="lectura">Lectura regular de libros de desarrollo personal</label>
+
+            <label class="habitos" for="meditacion"><input type="checkbox" name="habitos-meditacion" id="meditacion" value="meditacion">Meditación diaria</label>
+
+            <label class="habitos" for="gratitud"><input type="checkbox" name="habitos-gratitud" id="gratitud" value="gratitud"> Práctica de la gratitud diaria</label>
+
+            <label class="habitos" for="journaling"><input type="checkbox" name="habitos-journaling" id="journaling" value="journaling">Mantenimiento de un diario o reflexión escrita</label>
+
+            <label class="habitos" for="otro"><input type="checkbox" name="habitos-otro" id="otro" value="otro">Otro</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="comentarios" id="titulo-final">¡Has llegado al final! ¿Hay algo más que te gustaría compartir sobre tu viaje de desarrollo personal o algún consejo para otros en la misma senda? </label>
+            <textarea  name="" id="comentarios" cols="30" rows="10" placeholder="Ingresa tu comentario aquí..."></textarea>
+        </fieldset>
+
+        <input type="submit" id="submit">
+
+    </form>
+
+</body>
+</html>
