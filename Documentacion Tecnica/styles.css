@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Ajustes Básicos */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+html{
+    font-family: "Quicksand", sans-serif;
+    background-color: #1B1B1B;
+    color: #fff;
+}
+
+
+/* Barra de Navegación */
+#navbar{
+    position: fixed;
+    width: 310px;
+    border-right: 2px solid white;
+    margin: 0;
+    left: 0;
+}
+
+.nav-link{
+    display: block;
+    border-top: 1px solid black;
+    font-size: 15px;
+    padding: 26px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #fff
+}
+
+nav a:hover{
+    background-color: #fdfd96;
+    color: #000;
+    font-weight: 500;
+}
+
+nav header{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Main de la Documentación */
+#main-doc{
+    position: absolute;
+    top: 10px;
+    left: 340px;
+}
+
+section header{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+section:not(:first-child) header{
+    margin-top: 50px;;
+}
+
+
+section p{
+    margin: 20px;
+    line-height: 1.7em;
+}
+
+
+
+code{
+    display: inline-block;
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.italic{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+li{
+    margin-left: 20px;
+}
+
+ul code{
+    margin-top: 15px;
+}
+
+ul li a{
+    color: #84b6f4
+}
+
+
+ul ul{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.black{
+    font-weight: bold;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 800px){
+
+    #navbar{
+        position: relative;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        border: none;
+    }
+
+    .nav-link{
+        padding: 10px;
+    }
+
+    .nav-link:last-child{
+        border-bottom: 1px solid black;
+    }
+
+    #main-doc{
+        position: static;
+        margin-left: 20px;
+    }
+}
+
+

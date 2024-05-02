@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <header>Documentación HTML</header>
+        <a href="#Introducción" class="nav-link">Introducción</a>
+        <a href="#Estructura_Básica" class="nav-link">Estructura Básica</a>
+        <a href="#Elementos_Básicos" class="nav-link">Elementos Básicos</a>
+        <a href="#Comentarios" class="nav-link">Comentarios</a>
+        <a href="#Listas_y_Tablas" class="nav-link">Listas y Tablas</a>
+        <a href="#Formularios" class="nav-link">Formularios</a>
+        <a href="#Imágenes" class="nav-link">Imágenes</a>
+        <a href="#Recursos_adicionales_y_referencias" class="nav-link">Recursos adicionales y referencias</a>
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="Introducción">
+            <header>Introducción</header>
+            
+            <p>HTML, que significa "HyperText Markup Language" (Lenguaje de Marcado de Hipertexto), es el lenguaje estándar utilizado para crear y diseñar páginas web. Es la piedra angular de la web y proporciona la estructura básica para el contenido en línea. HTML utiliza una serie de etiquetas y elementos para definir la estructura y el significado del contenido dentro de una página web.</p>
+            
+            <p>¿Qué es HTML? <br>
+            HTML es un lenguaje de marcado que utiliza una sintaxis simple y clara para describir la estructura de una página web. Cada elemento dentro de un documento HTML está envuelto en etiquetas, que indican al navegador cómo interpretar y mostrar ese elemento. Estas etiquetas pueden incluir contenido como texto, imágenes, enlaces, formularios y mucho más.</p>
+
+
+            <p>Importancia de HTML <br>
+                HTML es fundamental para la creación de páginas web accesibles y bien estructuradas. Proporciona la base sobre la cual se construyen el diseño, la funcionalidad y la accesibilidad de un sitio web. Con HTML, los desarrolladores pueden crear páginas web que sean fáciles de leer, navegar y entender tanto para los usuarios como para los motores de búsqueda. </p>
+                
+            <p>En resumen, HTML es el lenguaje esencial para la construcción de la web moderna. Al comprender sus fundamentos y utilizarlo correctamente, los desarrolladores pueden crear experiencias web atractivas y funcionales para una amplia audiencia en línea.</p>
+        </section>
+
+
+        <section class="main-section" id="Estructura_Básica">
+            <header>Estructura Básica</header>
+
+            <p>La estructura básica de un documento HTML consta de elementos fundamentales que proporcionan el esqueleto sobre el cual se construye una página web. En su forma más simple, un documento HTML comienza con la declaración &lt;!DOCTYPE html&gt;, seguida de la etiqueta &lt;html&gt; que encapsula todo el contenido de la página. Dentro de &lt;html&gt;, encontramos dos secciones principales: &lt;head&gt; y &lt;body&gt;.</p>
+            
+            <p>En la sección &lt;head&gt;, se incluyen metadatos y referencias a recursos externos que no son visibles para los usuarios, como el título de la página, enlaces a hojas de estilo CSS, scripts JavaScript y otros elementos importantes para el funcionamiento y la presentación de la página web.</p>
+            
+            <p>Por otro lado, la sección &lt;body&gt; contiene el contenido visible de la página, incluyendo texto, imágenes, enlaces, formularios y otros elementos que los usuarios pueden interactuar. Es aquí donde los desarrolladores estructuran y organizan el contenido de la página para proporcionar una experiencia de navegación intuitiva y atractiva.</p>
+            
+            <p>Ejemplo básico de la estructura de un documento HTML:</p>
+            <code>
+                    &lt;!DOCTYPE html&gt; <br>
+                    &lt;html&gt; <br>
+                    &lt;head&gt; <br>
+                        &lt;title&gt;¡Mi primera página web!&lt;/title&gt; <br>
+                    &lt;/head&gt; <br>
+                    &lt;body&gt; <br>
+                        &lt;h1&gt;Bienvenido a mi página web&lt;/h1&gt; <br>
+                        &lt;p&gt;Esta es una página web de ejemplo.&lt;/p&gt; <br>
+                    &lt;/body&gt; <br>
+                    &lt;/html&gt; <br>
+            </code>
+        </section>
+
+
+        <section class="main-section" id="Elementos_Básicos"> 
+            <header>Elementos Básicos</header>
+
+            <p>Los elementos básicos de HTML son los bloques de construcción fundamentales que se utilizan para crear una página web. Estos elementos permiten agregar contenido, estructura y funcionalidad a una página web de manera simple y efectiva.</p>
+
+            <p><span class="italic">Encabezados (&lt;h1&gt; - &lt;h6&gt;)</span> <br>
+            Los elementos de encabezado (&lt;h1&gt; - &lt;h6&gt;) se utilizan para definir títulos y subtitulos en una página web. Cuanto menor sea el número de encabezado, mayor será su importancia en la jerarquía de títulos. Por ejemplo, &lt;h1&gt; es el título principal de la página, mientras que &lt;h6&gt; se utiliza para subtitulos de menor importancia.</p>
+
+            <code>
+                &lt;h1&gt;Este es un título principal&lt;/h1&gt; <br>
+                &lt;h2&gt;Este es un subtítulo&lt;/h2&gt; <br>
+                &lt;h3&gt;Otro subtítulo&lt;/h3&gt; 
+            </code>
+
+            <p><span class="italic">Párrafos (&lt;p&gt;)</span><br>
+            El elemento &lt;p&gt; se utiliza para representar un párrafo de texto en una página web. Este elemento es uno de los más comunes y se utiliza para organizar y estructurar el contenido textual de una página.</p>
+            
+            <code>
+                &lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt; <br>
+                &lt;p&gt;Este es otro párrafo.&lt;/p&gt;
+            </code>
+
+
+            <p><span class="italic">Enlaces (&lt;a&gt;)</span><br>
+            El elemento &lt;a&gt; se utiliza para crear enlaces a otras páginas web, archivos, ubicaciones dentro de la misma página, o direcciones de correo electrónico.</p>
+
+            <code>
+                &lt;a href="https://www.ejemplo.com"&gt;Ir a Ejemplo&lt;/a&gt; <br>
+                &lt;a href="#seccion2"&gt;Ir a Sección 2&lt;/a&gt;
+            </code>
+
+
+            <p><span class="italic">Imágenes (&lt;img&gt;)</span><br>
+            El elemento &lt;img&gt; se utiliza para incrustar imágenes en una página web. Es importante incluir el atributo src con la URL de la imagen que se va a mostrar.</p>
+
+            <code>
+                &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+            </code>
+        </section>
+
+
+        <section class="main-section" id="Comentarios">
+            <header>Comentarios</header>
+            <p>Los comentarios en HTML son segmentos de texto que no se muestran en la página web final, pero que pueden ser útiles para documentar el código y hacerlo más legible para otros desarrolladores. Los comentarios en HTML se escriben entre &lt;!-- y --&gt;.</p>
+
+            <code>
+                &lt;!-- Este es un comentario en HTML --&gt;
+            </code>
+        </section>
+
+
+        <section class="main-section" id="Listas_y_Tablas">
+            <header>Listas y Tablas</header>
+            <p><span class="italic">Listas en HTML </span><br>
+                Las listas en HTML permiten organizar y presentar información de manera estructurada. Hay tres tipos principales de listas en HTML: listas ordenadas (&lt;ol&gt;), listas no ordenadas (&lt;ul&gt;), y listas de definición (&lt;dl&gt;).</p>
+
+            <ul>
+                <li>Listas Ordenadas (&lt;ol&gt;): Son listas numeradas, donde cada elemento de la lista se presenta con un número.</li>
+                <code>
+                    &lt;ol&gt; <br>
+                    &lt;li&gt;Elemento 1&lt;/li&gt; <br>
+                    &lt;li&gt;Elemento 2&lt;/li&gt; <br>
+                    &lt;li&gt;Elemento 3&lt;/li&gt; <br>
+                    &lt;/ol&gt;
+                </code>
+
+
+                <li>Listas No Ordenadas (&lt;ul&gt;): Son listas con viñetas, donde cada elemento de la lista se presenta con un símbolo de viñeta.</li>
+                <code>
+                    &lt;ul&gt; <br>
+                    &lt;li&gt;Elemento A&lt;/li&gt; <br>
+                    &lt;li&gt;Elemento B&lt;/li&gt; <br>
+                    &lt;li&gt;Elemento C&lt;/li&gt; <br>
+                    &lt;/ul&gt;
+                </code>
+
+
+                <li>Listas de Definición (&lt;dl&gt;): Son listas que contienen términos y sus definiciones asociadas.</li>
+                <code>
+                    &lt;dl&gt; <br>
+                    &lt;dt&gt;Término 1&lt;/dt&gt; <br>
+                    &lt;dd&gt;Definición 1&lt;/dd&gt; <br>
+                    &lt;dt&gt;Término 2&lt;/dt&gt; <br>
+                    &lt;dd&gt;Definición 2&lt;/dd&gt; <br>
+                    &lt;/dl&gt;
+                </code>
+
+                <p><span class="italic">Tablas en HTML </span> <br>
+                    Las tablas en HTML permiten organizar datos en filas y columnas. La estructura básica de una tabla en HTML incluye las etiquetas &lt;table&gt; para definir la tabla, &lt;tr&gt; para las filas, &lt;th&gt; para las celdas de encabezado, y &lt;td&gt; para las celdas de datos.
+                </p>
+
+                <code>
+                    &lt;table&gt; <br>
+                    &lt;tr&gt; <br>
+                    &lt;th&gt;Encabezado 1&lt;/th&gt; <br>
+                    &lt;th&gt;Encabezado 2&lt;/th&gt; <br>
+                    &lt;/tr&gt; <br>
+                    &lt;tr&gt; <br>
+                    &lt;td&gt;Dato 1&lt;/td&gt; <br>
+                    &lt;td&gt;Dato 2&lt;/td&gt; <br>
+                    &lt;/tr&gt; <br>
+                    &lt;/table&gt;
+                </code>
+            </ul>
+        </section>
+
+
+        <section class="main-section" id="Formularios">
+            <header>Formularios</header>
+            <p>
+                Los formularios HTML permiten a los usuarios enviar datos al servidor web. Se crean con la etiqueta &lt;form&gt; y pueden contener diferentes tipos de elementos de entrada, como campos de texto, casillas de verificación y botones de opción.
+            </p>
+
+            <code>
+                &lt;form action="/submit_form" method="post"&gt; <br>
+                &lt;input type="text" placeholder="Nombre" required&gt; <br>
+                &lt;input type="email" placeholder="Correo Electrónico" required&gt; <br>
+                &lt;textarea placeholder="Mensaje" rows="4" required&gt;&lt;/textarea&gt; <br>
+                &lt;input type="submit" value="Enviar"&gt; <br>
+                &lt;/form&gt;
+            </code>
+
+            <p>En este ejemplo, los usuarios pueden ingresar su nombre, correo electrónico y un mensaje. Los datos se envían al servidor especificado en el atributo action cuando se hace clic en el botón "Enviar", utilizando el método especificado en el atributo method (en este caso, "post"). </p>
+
+            <p>Los formularios son una parte esencial de muchas aplicaciones web, permitiendo la interacción y recopilación de información por parte de los usuarios.</p>
+        </section>
+
+
+        <section class="main-section" id="Imágenes">
+            <header>Imágenes</header>
+            <p>Las imágenes son elementos visuales esenciales en una página web. Se insertan con la etiqueta &lt;img&gt; y tienen dos atributos principales:</p>
+
+            <code>
+                &lt;img src="ruta/a/la/imagen.jpg" alt="Descripción de la imagen"&gt;
+            </code>
+
+            <ul>
+                <li>src: Especifica la ubicación de la imagen.</li>
+                <li>alt: Proporciona un texto alternativo para la accesibilidad.</li>
+            </ul>
+        </section>
+
+
+
+
+        <section class="main-section" id="Recursos_adicionales_y_referencias">
+            <header>Recursos adicionales y referencias</header>
+            <p>Para seguir aprendiendo y mejorando en HTML, CSS y JavaScript, aquí tienes algunos recursos recomendados:</p>
+
+            <ul>
+                <li class="black">Documentación Oficial:</li>
+                    <ul>
+                        <li>HTML: <a href="https://html.spec.whatwg.org/multipage/">Documentación HTML - W3C</a></li>
+                        <li>CSS: <a href="https://developer.mozilla.org/es/docs/Web/CSS">Guía de CSS - MDN</a></li>
+                        <li>JavaScript: <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">Documentación JavaScript - MDN</a></li>
+                    </ul>
+
+
+                <li class="black">Plataformas de Aprendizaje en Línea:</li>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                    <li><a href="https://www.codecademy.com/">Codecademy</a></li>
+                    <li><a href="https://udemy.com/">Udemy</a></li>
+                </ul>
+            </ul>
+
+            <p>Estos recursos te ayudarán a profundizar tus conocimientos y habilidades en el desarrollo web de manera efectiva.</p>
+
+        </section>
+    </main>
+    
+</body>
+</html>
