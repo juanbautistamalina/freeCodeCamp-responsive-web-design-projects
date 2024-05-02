@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunZone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+
+            <div id="nav-bar-div">
+                <img id="header-img"
+                    src="https://cdn.dribbble.com/users/2984251/screenshots/15487625/media/1501cb8cd7dbdb88127b7402c2692acd.png?resize=400x0"
+                    alt="Logo RunZone">
+
+               <span id="title">RunZone</span>
+            </div>
+
+            <ul>
+                <li><a class="nav-link" href="#title">Inicio</a></li>
+                <li><a class="nav-link" href="#motivacion">Motivacion</a></li>
+                <li><a class="nav-link" href="#productos">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="seccion">
+            <h2>Tu Destino para Productos de Running</h2>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" name="email" placeholder="Ingresa tu dirección de email"><br>
+                <input type="submit" value="ENVIAR" id="submit">
+            </form>
+        </section>
+
+        <section id="motivacion" class="seccion">
+            <h3>Motivación</h3>
+            <div class="div-centrado" ><iframe id="video" width="560" height="315"
+                    src="https://www.youtube.com/embed/Qzw8LuUsKJ4?si=dXy5qn1rPG_1S-H7" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <hr>
+        <div class="div-centrado" id="frase">
+            <cite>No hay atajos para alcanzar tus metas. Solo la determinación te llevará allí.</cite>
+            
+        </div>
+        <hr>
+
+        <section id="productos" class="seccion">
+            <h3>Productos</h3>
+
+            <div class="productos">
+                <div class="tarjeta">
+                    <h4>Zapatillas</h4>
+                    <img id="img-1" class="img-producto" src="https://assets.adidas.com/images/w_600,f_auto,q_auto/52eda33c874e48aea1c11149d24c09d7_9366/Zapatillas_Adizero_SL_Turquesa_ID6923_HM20.jpg" alt="Zapatillas Adizero">
+                    <button class="btn">CONSULTAR</button>
+                </div>
+
+                <div class="tarjeta">
+                    <h4>Relojes</h4>
+                    <img id="img-2" class="img-producto" src="https://cdn.thewirecutter.com/wp-content/media/2023/10/gpsrunningwatches-2048px-03513-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024" alt="Reloj Garmin ForeRunner 45">
+                    
+                    <button class="btn">CONSULTAR</button>
+                </div>
+
+                <div class="tarjeta">
+                    <h4>Mochilas | Chalecos</h4>
+                    <img id="img-3" class="img-producto" src="https://cdn.outsideonline.com/wp-content/uploads/2022/05/hydration-vests-s22_h.jpg?crop=25:14&width=500&enable=upscale" alt="">
+                    <button class="btn">CONSULTAR</button>
+                </div>
+            </div>
+        </section>        
+    </main>
+    
+    <footer>
+            <small>© 2024 RunZone. Todos los derechos reservados.</small>
+    </footer>
+</body>
+</html>
