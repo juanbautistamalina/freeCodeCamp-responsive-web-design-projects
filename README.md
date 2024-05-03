@@ -1,0 +1,13 @@
+
+ - Survey form :- https://codepen.io/juanbautistamalina/pen/vYMqyEB
+ - Tribute page :- https://codepen.io/juanbautistamalina/pen/PogrbZN
+ - Documentation page :- https://codepen.io/juanbautistamalina/pen/RwOzoaN 
+ - Landing page :- https://codepen.io/juanbautistamalina/pen/zYXVoBm
+ - Portfolio page :- https://codepen.io/juanbautistamalina/pen/WNWqdmx
+
+
+Certificate of Completion
+
+![image](https://private-user-images.githubusercontent.com/104845721/327739778-6e9b0a1d-492f-453f-84e4-fd01d2a3ed45.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTQ3NDEwMzIsIm5iZiI6MTcxNDc0MDczMiwicGF0aCI6Ii8xMDQ4NDU3MjEvMzI3NzM5Nzc4LTZlOWIwYTFkLTQ5MmYtNDUzZi04NGU0LWZkMDFkMmEzZWQ0NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUwM1QxMjUyMTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MTEzMDA0MDE4ZWU5YjRkNmVlMmI1M2M2ZThkNWJkM2M2NTYzZmI5MDQ5NzI1YTRlMzBkMTJhOTY4MTdjZTQzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O1LZb7agFj2GxyEtTo8F0kUufZDjFguqhymBHbtmEic)
+
+
